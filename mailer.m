@@ -2,8 +2,6 @@ function [  ] = mailer( email )
 %MAILER Summary of this function goes here
 %   Detailed explanation goes here
 
-UserName = 'help.mobilite@gmail.com';
-passWord = 'Mobility123';
 setpref('Internet','E_mail',UserName);
 setpref('Internet','SMTP_Server','smtp.gmail.com');
 setpref('Internet','SMTP_Username',UserName);
